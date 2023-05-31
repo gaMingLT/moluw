@@ -9,9 +9,9 @@ This project is a result of integrating the Metatwin script into a R&D project c
 
 ### Docker
 
-If you build the docker container without adjusting the Docker file, no target executable will be present. The ``ADExplorer64.exe`` binary has been placed inside the repo and is copied over on building the container, this can be replaced by changing the Docker file.
+If you build the docker container without adjusting the Docker file, no target executable and source executable is currently present in the repository. The current docker file looks for the ``ADExplorer64.exe`` binary as the source binary it can be downloaded from the Microsoft website or changed to a different source binary. The docker file should be adjusted if another source or target binary is required.
 
-Build the docker container:
+Building the docker container:
 ```bash
 docker build . -t moluw
 ```
