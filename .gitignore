@@ -1,0 +1,10 @@
+sigcheck*.exe
+executable.exe
+ADExplorer64.exe
+
+ResourceHacker.ini
+
+sigvalidator.py
+
+__pycache__/
+.vscode/
